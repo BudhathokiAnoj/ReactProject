@@ -1,0 +1,262 @@
+
+.navbar__parent{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+    z-index: 1000;
+    border-bottom: 1px solid yellow;
+}
+
+.restaurant__name{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    letter-spacing: 2px;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-left: 5%;
+    color: gold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar__links{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar__list{
+    margin:0 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.navbar__list a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar__list a:hover{
+    transition: .2s;
+    color: grey;
+    border-bottom: 1px solid yellow;
+}
+
+.navbar__login{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.navbar__login a{
+    margin:0 1rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: .5s ease;
+}
+
+.line{
+    height: 20px;
+    width: 1px;
+    background-color: gray;
+}
+.navbar__login a:hover{
+    transition: .2s;
+    border-bottom: 1px solid gold;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 80px;
+    width: 40px;
+}
+
+.navbar__container{
+    margin-top: 6%;
+    border: 1px solid black;
+    background-color: #222;
+    height: 500px;
+    margin-left: 78.4%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    transform: scaleX(0);
+    transform-origin: right;
+}
+
+.navbar__container.active{
+    transition: .2s;
+    transform: scaleX(1);
+}
+
+.navbar__container li{
+    list-style: none;
+    margin: 20px;
+    text-decoration: none;
+}
+
+#homeSlide{
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+#home:hover{
+    color: yellow;
+}
+
+.login__form{
+    height: 400px;
+    width: 400px;
+    margin-top: -35%;
+    margin-left: 67%;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    color: black;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+.sign__form{
+    height: 400px;
+    width: 400px;
+    margin-top: -30%;
+    margin-left: 67%;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    color: black;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+.sign__form.active{
+    transition: .3s;
+    transform: scaleY(1);
+}
+
+.book__container{
+    height: 120px;
+    width: 400px;
+    margin-top: -30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 67%;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    color: black;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+.book__container.active{
+    transition: .3s;
+    transform: scaleY(1);
+}
+
+.login__form.active{
+   transition: .3s;
+   transform: scaleY(1);
+}
+
+.login__form h1{
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fa-solid{
+    color: white;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-left: 90%;
+    height: 40px;
+    width: 40px;
+}
+
+.sign__form h1{
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.login__form input{
+    margin-top: 45px;
+    height: 40px;
+    width: 250px;
+    border: none;
+    color: black;
+    background-color: black;
+    border: 1px solid yellow;
+    margin-left: 20%;
+    padding-left: 8px;
+}
+
+.sign__form input{
+    margin-top: 25px;
+    height: 45px;
+    width: 280px;
+    border: none;
+     border: 2px solid yellow;
+    color: white;
+    background-color: black;
+    margin-left: 16%;
+    padding-left: 8px;
+}
+
+.btn{
+    margin-left: 23%;
+}
+
+.login__btn{
+    margin-top: 15%;
+    height: 35px;
+    width: 90px;
+    background: yellow;
+    border: none;
+    margin-left: 23px;
+    cursor: pointer;
+    color: black;
+    font-size: 1rem;
+}
+
+.submit{
+    margin-top: 20px;
+    height: 35px;
+    width: 80px;
+    background: yellow;
+    border: none;
+    margin-left: 40%;
+    cursor: pointer;
+    color: black;
+    font-size: 1rem;
+}

@@ -1,0 +1,16 @@
+
+.book__containers button{
+    height: 40px;
+    width: 100px;
+    background: yellow;
+    border: none;
+    margin-left: 23px;
+    cursor: pointer;
+    color: black;
+    font-size: 1.3rem;
+}
+
+.book__containers button:hover{
+    color: red;
+    letter-spacing: .2px;
+}

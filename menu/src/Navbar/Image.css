@@ -1,0 +1,48 @@
+
+.homeImg img{
+    height: 100vh;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin-top:-13%;
+    background-size: cover;
+    
+}
+
+.food__fresh{
+   font-size: 1.5rem;
+   margin-top: -36%;
+   color: white;
+   width: 650px;
+   margin-left: 30px;
+   font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.food__fresh span{
+    color: yellow;
+}
+
+.food__fresh p{
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.food__fresh button{
+    height: 40px;
+    width: 150px;
+    background: gold;
+    border: none;
+    cursor: pointer;
+    margin-left: 80px;
+    margin-top: 50px;
+    font-size: 1rem;
+}
+
+.food__fresh button:hover{
+    letter-spacing: .3px;
+    transition: .3s;
+    color: red;
+}

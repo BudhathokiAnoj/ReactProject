@@ -1,0 +1,71 @@
+.contact__container{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 199.2%;
+}
+
+.contact__container h1{
+    margin-left: 37%;
+    text-transform: uppercase;
+    margin-top: 40px;
+    color: yellow;
+    font-size: 2.9rem;
+    letter-spacing: .5px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contact__container span{
+    color: white;
+}
+
+.input__values{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 5%;
+    height: 400px;
+    width: 550px;
+    background-color: #333;
+}
+
+.input__values h2{
+    position: relative;
+    top: 20px;
+    margin-left: 28%;
+    text-transform: uppercase;
+    color: white;
+    font-size: 2rem;
+    letter-spacing: .5px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.inputVal{
+    height: 55px;
+    color: white;
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 10%;
+    border: 2px solid yellow;
+    background-color: #333;
+    padding-left: 20px;
+    font-size: 1.1rem;
+}
+
+.inputs{
+    position: relative;
+    top: 10px;
+}
+
+.contact__btn{
+    height: 40px;
+    width: 150px;
+    background: gold;
+    border: none;
+    cursor: pointer;
+    margin-left: 35%;
+    margin-top: 30px;
+    font-size: 1rem;
+}

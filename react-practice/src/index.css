@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+}
+.container{
+  height: 50px;
+  width: 100%;
+  background-color: #222;
+  color: white;
+  display: flex;
+  align-items: center;
+
+}
+ul{
+ list-style: none;
+ display: flex;
+ justify-content: center;
+ gap: 12px;
+ align-items:center;
+ margin-left: 40%;
+ font-size: 1.2em;
+ cursor: pointer;
+}
+ul li:hover{
+  color: red;
+}
+
+h2{
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  margin-left: 2rem;
+}

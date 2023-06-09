@@ -1,0 +1,57 @@
+.imgReview{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 150%;
+}
+
+.imgReview h1 span{
+    color: yellow;
+}
+
+.imgReview h1{
+    margin-left: 37%;
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-size: 2.9rem;
+    letter-spacing: .5px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.para{
+    margin-top: 80px;
+    height: 30px;
+    width: 340px;
+}
+
+.imgReview .star__icon .fa-solid {
+    margin-left: .1px;
+    font-size: 1.3rem;
+    color: yellow;
+    margin-top: 90px;
+}
+
+.pi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgReview .pi .fa-solid{
+    color: yellow;
+    font-size: 4rem;
+    margin-right: 90%;
+}
+
+.imgReview .img__product img{
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 110px;
+    margin-right: 20px;
+}

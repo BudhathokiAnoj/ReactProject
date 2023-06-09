@@ -1,0 +1,25 @@
+.filter_div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+label{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+select{
+    background-color: blueviolet;
+    margin-top: 20px;
+    margin-right: 30px;
+    height: 30px;
+    width: 80px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    border: 1px solid green;
+}
